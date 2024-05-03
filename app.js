@@ -10,9 +10,7 @@ function burgerX() {
     bars.addEventListener("click", () => {
         bars.classList.toggle('toggle');
         popup.classList.toggle("popups-active");
-        
     })
-
 }
 
 burgerX();
@@ -24,7 +22,7 @@ document.querySelector(".next").addEventListener("click", function () {
 
     const additionalImagesRow = document.querySelectorAll('.additional-images');
 
-    additionalImagesRow.forEach(img => img.style.cssText = "display:flex;gap:12px ;justify-content:center;align-items:center;flex-wrap:wrap");
+    additionalImagesRow.forEach(img => img.style.cssText = "display:flex;gap:12px ;justify-content:center;align-items:center;flex-wrap:wrap;");
 });
 
 
